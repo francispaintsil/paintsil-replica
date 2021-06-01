@@ -1,0 +1,122 @@
+.navbarblack {
+    display: none;
+    width: 100vw;
+    height: 6vh;
+    background-color: #111;
+    /* padding-right: 500px; */
+    padding-top: 10px;
+    text-align: center;
+}
+.navbarblack a {
+    float: right;
+    margin-right: 120px;
+    color: rgb(160, 160, 160);
+}
+.banner-header {
+}
+.search-form {
+    display: none;
+    padding: 10px;
+    /* float: left; */
+}
+.search-form input {
+    width: 40vw;
+    height: 6vh;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 20px;
+}
+.desc {
+    display: none;
+}
+@media only screen and (min-width: 600px) {
+    .navbarblack {
+        display: block;
+    }
+    .navbarblack img {
+        display: none;
+    }
+    :root {
+        font-size: 12px;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: initial;
+        justify-content: initial;
+    }
+    .navbar img {
+        width: 220px;
+        margin-left: 100px;
+        margin-right: 90px;
+    }
+    .navbar .menu-box {
+        display: none;
+    }
+    .main-img {
+        background-image: url("../img/main-sm.webp");
+        background-repeat: repeat-x;
+        padding: 40px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .browse-room-type {
+        /* border: 1px solid green; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 40px 45px 12px 45px;
+    }
+    .search-form {
+        display: block;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .components-container {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .pic img {
+        width: 100%;
+    }
+    .pic {
+        width: 90%;
+        /* border: 1px solid rgb(80, 87, 57); */
+    }
+    .text {
+        width: 20px;
+        /* border: 1px solid rgb(251, 255, 0); */
+    }
+    .components {
+        width: 27vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .components hr {
+        width: 24.01vw;
+        border: 0.01px solid rgb(36, 36, 36);
+    }
+    .desc {
+        display: block;
+        width: 100%;
+    }
+    .text {
+        width: 270px;
+        padding: 30px 50px 10px 0px;
+        font-size: 1.4rem;
+        /* border: 3px solid rgb(41, 228, 24); */
+    }
+    .all-alone {
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .bottom-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        /* border: 3px solid rgb(41, 228, 24); */
+    }
+}

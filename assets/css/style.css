@@ -1,0 +1,143 @@
+:root{
+    font-size: 9px;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+
+}
+html, body{
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    position: absolute;
+    height: 100vh;
+    width: auto;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    /* bottom: 0; */
+    right: 0;
+    
+}
+.menu-box{
+    width: 20px;
+    /* height: 25px; */
+    padding: 5px 10px;
+    border: 2px solid #ececec;
+    align-items: center;  
+}
+.navbar{
+    background-color: #fff;
+    width: 100%;
+    /* height: 5vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar a{
+    color: #111;
+
+}
+
+.navbar img{
+    float: left;
+    width: 140px;
+}
+.navbar span{
+    align-items: flex-end;
+}
+.banner-header{
+    font-size: 2rem;
+    font-style: normal;
+    line-height: 26px;
+    font-weight: 800;
+    color: rgba(0,0,0,0.9);
+}
+.main-img{
+    width: 100vw;
+    min-height: 450px;
+    background-image: url("../img/main-xs.webp");
+    opacity: .9;
+    background-size: 100% 100%;
+
+    text-align: center;
+    padding-top: auto;
+    word-wrap: break-word;
+    border: 1px solid white;
+
+    /* padding-left: 8%; */
+    /* padding-right: 20%; */
+}
+.browse-room-type{
+    margin: 30px 2px 30px 0px;
+}
+.components-container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid rgb(128, 0, 75); */
+    
+
+    /* justify-content: space-between; */
+}
+.components{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0 0 0;
+    /* border: 3px solid rgb(128, 0, 75); */
+
+
+}
+.pic{
+    width: 46%;
+    /* border: 1px solid rgb(80, 87, 57); */
+
+}
+.pic img{
+    width: 40vw;
+}
+.bottom-info{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    background-color: #ececec;
+    }
+.info-box{
+    width: 100%;
+    /* height: 100px; */
+    font-size: 1.4rem;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+.info-box p {
+    padding-left: 15px;
+}
+.footer{
+    text-align: center;
+    background-color: #111;
+    color: white;
+    font-size: 1.4rem;
+}
+.rotate {
+    position: absolute;
+    color: #111;
+    top: 39px;
+
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
